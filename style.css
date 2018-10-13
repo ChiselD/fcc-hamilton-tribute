@@ -10,8 +10,8 @@ img.displayed {
   margin-top: 20px;
 }
 
-#main-background {
-  background-color: lightgray;
+#main {
+  background-color: rgba(50,150,60,.7);
   margin: 10px;
   padding: 15px;
 }
