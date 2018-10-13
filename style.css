@@ -1,0 +1,40 @@
+body {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#main-background {
+  background-color: lightgray;
+  margin: 10px;
+  padding: 15px;
+}
+
+#quotation {
+  font-size: 1.1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 85%;
+  background-color: white;
+  padding: 10px;
+}
+
+#attribution {
+  margin-left: 50px;
+}
+
+#more-info {
+  text-align: center;
+}
+
+#credit {
+  text-align: center;
+  font-size: .8em;
+}
