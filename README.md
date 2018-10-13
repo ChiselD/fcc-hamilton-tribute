@@ -1,5 +1,8 @@
 This is the “Build a Tribute Page” project from freeCodeCamp.com. All code is my original creation.
 
+This project is currently NOT FUNCTIONAL, but you can still preview it here:<br/>
+http://htmlpreview.github.io/?https://github.com/ChiselD/fcc-hamilton-tribute/blob/master/index.html
+
 User Stories:
 
 User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
