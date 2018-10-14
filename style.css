@@ -1,60 +1,83 @@
+/*********************/
+/* CLASSES */
+/*********************/
+
 .white-background {
   background-color: white;
 }
 
-/* .green-border {
-  border: 2px bevel green;
-} */
+.green-border {
+  border: 4px solid green;
+  border-radius: 4px;
+}
+
+/*********************/
+/* RESPONSIVE SIZING */
+/*********************/
+
+@media (max-width: 800px) {
+  img {
+    display: block;
+    width: 80%;
+    heigth: auto;
+    margin: 20px auto 0 auto;
+    padding: 0;
+  }
+}
 
 html {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  background-color: rgba(50,150,60,.7);
   margin: 0;
   padding: 0;
-  min-height: 100%;
+  height: 100%;
 }
 
 main {
-  border: 3px solid blue; /* TEST CODE */
-  background-color: rgba(50,150,60,.7);
-  /* margin: 0; */
   min-height: 100%;
   position: relative;
+  margin: 20px 0 0 0;
+  padding: 0;
 }
 
 header {
+  margin: auto;
   padding: 10px;
+  width: 640px;
+  height: auto;
 }
 
 h1 {
-  /**/
+  margin: 10px;
+  padding: 0;
 }
 
 h2 {
-  /**/
+  margin: 20px;
+  padding: 0;
 }
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
+  padding: 0;
 }
 
 section {
-  border: 3px solid red; /* TEST CODE */
+  padding: 5px 15px 5px 5px;
   display: block;
   float: left;
-  display: block;
-  float: left;
-  max-width: 40%;
-  /* clear: all; */
+  max-width: 50%;
 }
 
 aside {
-  border: 3px solid orange; /* TEST CODE */
+  margin: 80px 0 0 0;
+  padding: 10px 30px;
   display: block;
   float: right;
   max-width: 40%;
@@ -65,19 +88,32 @@ footer {
   position: relative; /* THIS was what finally did it! :D */
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 30px;
   clear: both;
+  margin-top: 10px;
+  padding: 10px 0 0 0;
 }
 
 #intro {
-  border: 3px solid purple; /* TEST CODE */
-  max-width: 70%;
+  width: 70%;
   text-align: center;
   margin: auto;
 }
 
 #main-content {
   padding: 15px 15px 70px 15px;
+  width: 100%;
+}
+
+#img-caption {
+  font-style: italic;
+}
+
+#tribute-info {
+  margin: 0 40px;
+  padding: 0;
+  display: block;
+  overflow: auto;
 }
 
 #attribution {
@@ -85,17 +121,25 @@ footer {
 }
 
 #more-info {
-  /* text-align: center; */
-  display: block;
-  clear; both;
+  display: inline-block;
+  clear: both;
   width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#tribute-link {
+  width: 40%;
+  padding: 20px;
+  margin: 0 0 0 45px;
 }
 
 #credit {
-  border: 1px solid purple; /* TEST CODE */
   width: 100%;
-  height: 18px;
+  height: 100%;
+  top: 50%;
   text-align: center;
   font-size: .8em;
-  margin-top: 30px;
+  margin: 0;
+  padding: 0;
 }
