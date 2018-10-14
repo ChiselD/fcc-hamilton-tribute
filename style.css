@@ -18,8 +18,8 @@
 @media (max-width: 800px) {
   img {
     display: block;
-    width: 80%;
-    heigth: auto;
+    max-width: 80%;
+    max-height: auto;
     margin: 20px auto 0 auto;
     padding: 0;
   }
@@ -98,6 +98,11 @@ footer {
   width: 70%;
   text-align: center;
   margin: auto;
+}
+
+#img-div {
+  max-width: 100%;
+  max-height: auto;
 }
 
 #main-content {
