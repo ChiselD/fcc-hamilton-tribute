@@ -24,6 +24,14 @@
     padding: 0;
   }
 }
+@media (max-width: 1200px) {
+  .textbox {
+    display: block;
+    float: left;
+    min-width: 400px;
+    margin: 20px 0;
+  }
+}
 
 html {
   height: 100%;
